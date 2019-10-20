@@ -27,6 +27,8 @@ class InteractiveRecord
   end 
   
   def initialize(options={}) 
+    options.each do |key, value|
+      
   end 
   
   def table_name_for_insert
