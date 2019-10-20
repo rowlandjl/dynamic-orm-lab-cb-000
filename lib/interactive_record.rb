@@ -61,7 +61,7 @@ class InteractiveRecord
     sql = <<-SQL
       SELECT * 
       FROM #{self.table_name}
-      WHERE attributes.keys.first.to_s 
+      WHERE #{attributes.keys.first.to_s} 
     SQL
   end 
   
