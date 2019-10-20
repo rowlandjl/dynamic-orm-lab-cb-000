@@ -50,6 +50,7 @@ class InteractiveRecord
   end 
   
   def save 
+    DB[:conn].execute()
   end 
   
   def self.find_by_name 
