@@ -22,7 +22,8 @@ class InteractiveRecord
     column_names.compact 
   end 
   
-  self.column_names.each do 
+  self.column_names.each do |col_name|
+    
   
   def initialize 
   end 
