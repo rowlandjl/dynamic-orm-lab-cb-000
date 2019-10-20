@@ -63,6 +63,8 @@ class InteractiveRecord
       FROM #{self.table_name}
       WHERE #{attributes.keys.first.to_s} = #{attributes[attributes.keys.first]}
     SQL
+    
+    DB[:conn].execute(sql)
   end 
   
 end
