@@ -14,6 +14,8 @@ class InteractiveRecord
     
     table_info = DB[:conn].execute(sql)
     column_names = []
+    
+    
   end 
   
   def initialize 
