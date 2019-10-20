@@ -50,7 +50,7 @@ class InteractiveRecord
   end 
   
   def save 
-    DB[:conn].execute()
+    DB[:conn].execute("INSERT INTO ")
   end 
   
   def self.find_by_name 
